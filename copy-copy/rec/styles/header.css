@@ -6,10 +6,9 @@ header {
     padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
-    background-image: url(/copy-copy/rec/images/header_bg.png);
+    background-image: url(/copy-copy/rec/images/header_bg.png), url(/copy-copy/rec/images/developer.png);
     background-repeat: no-repeat;
-    background-position-x: right;
-    background-position-y: bottom;
+    background-position: bottom right, top left;
     justify-content: space-between;
 
 
