@@ -27,13 +27,140 @@
 
 }
 
-main{
+main {
     max-width: 1140px;
     margin: 0 auto;
 }
 
-.about-info-cont{
+.about-info-cont {
     display: flex;
     justify-content: space-around;
     text-align: center;
+}
+
+
+.what-h {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+
+}
+
+.what-dec {
+    color: var(--Dark-03, #757575);
+    text-align: center;
+    padding: 30px 160px;
+    font-size: 18px;
+
+    font-weight: 400;
+    line-height: 30px;
+
+}
+
+.skill-group {
+    display: flex;
+    gap: 24px;
+}
+
+.skill {
+    padding: 35px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+
+}
+
+.skill-dec {
+    color: #757575;
+
+    font-size: 16px;
+
+    font-weight: 400;
+    line-height: 28px;
+
+
+}
+
+main section {
+    margin-top: 130px;
+}
+
+.resume {
+    text-align: center;
+
+}
+
+.resume-title {
+    color: #181818;
+
+
+    font-size: 35px;
+
+    font-weight: 700;
+    padding: 133px;
+
+}
+
+.resume-group {
+    margin-top: 0;
+    display: inline-flex;
+    gap: 70px;
+    margin-bottom: 30px;
+}
+
+.resume-col-name {
+    text-align: left;
+
+    color: #474747;
+
+    font-size: 30px;
+
+    font-weight: 700;
+    margin-bottom: 0;
+
+
+}
+
+.resume-info {
+    text-align: left;
+
+}
+
+.resume-info-name {
+    margin-top: 30px;
+    color: #474747;
+
+    font-size: 25px;
+
+    font-weight: 700;
+    margin-bottom: 0;
+
+}
+
+.resume-inst {
+    margin-top: 10px;
+    color:  #757575;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 0;
+}
+
+.resume-info-dec{
+    margin-top: 20;
+    color: var(--Dark-03, #757575);
+font-family: Open Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+width: 511px;
+}
+
+.cv-downlod{
+    margin-top: none;
+    margin-bottom: 113;
 }
