@@ -1,16 +1,48 @@
-header{
+header {
     background: #FFF8F3;
 }
-.banner{
-    padding: 30px 30px 30px 150px;
+
+.banner {
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    background-image: url(/copy-copy/rec/images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+    justify-content: space-between;
+
 
 }
-.profile-pic{
+
+.profile-pic {
     width: 584px;
     height: 676px;
     flex-shrink: 0;
 }
 
+.banner-ger {
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0;
 
+}
+
+.banner-name {
+    font-size: 85px;
+    color: #181818;
+    font-weight: 700;
+    margin-top: 5;
+    margin-bottom: 0;
+}
+
+.banner-dec {
+    margin-top: 20;
+    color:  #757575;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.banner-cont{
+    max-width: 500px;
+}
