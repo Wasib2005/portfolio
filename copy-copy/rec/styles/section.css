@@ -26,3 +26,14 @@
     line-height: 30px;
 
 }
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.about-info-cont{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
