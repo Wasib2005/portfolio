@@ -1,0 +1,29 @@
+footer{
+    background: #FFF8F3;
+}
+
+.footer{
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+.footer-com-lc{
+    padding: 198px 117px 526px 230px;
+
+    text-align: left;
+    align-items: left;
+}
+.soc{
+    margin-right: 24px;
+}
+.footer-col{
+    color: #181818;
+
+    font-size: 35px;
+
+    font-weight: 700;
+}
+
+.footer-com{
+    padding: 130px 230px 130px opx;
+}
