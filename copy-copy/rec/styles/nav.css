@@ -2,6 +2,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: opx 200px;
 }
 nav .head-text{
     color: #181818;
